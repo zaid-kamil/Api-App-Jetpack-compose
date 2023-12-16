@@ -2,7 +2,7 @@ package com.digi.api_app.data
 
 data class Volume(
     var totalItems: Int? = null,
-    var items: ArrayList<Book> = arrayListOf()
+    var items: List<Book> = arrayListOf()
 )
 
 data class Book(
@@ -12,13 +12,13 @@ data class Book(
 
 data class VolumeInfo(
     var title: String? = null,
-    var authors: ArrayList<String> = arrayListOf(),
+    var authors: List<String> = arrayListOf(),
     var publisher: String? = null,
     var publishedDate: String? = null,
     var description: String? = null,
     var pageCount: Int? = null,
     var printType: String? = null,
-    var categories: ArrayList<String> = arrayListOf(),
+    var categories: List<String> = arrayListOf(),
     var averageRating: Int? = null,
     var ratingsCount: Int? = null,
     var maturityRating: String? = null,
